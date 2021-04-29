@@ -357,7 +357,7 @@
   }))
 
 
-d3.csv("https://raw.githubusercontent.com/wailoon2794/HASS-Project/main/datas/waste_management.csv").then(data => {
+d3.csv("https://raw.githubusercontent.com/wailoon2794/HASS-Project/main/waste_management.csv").then(data => {
   const realData = data
     .filter(d => d.Year === '2017')
     .map(d => {
